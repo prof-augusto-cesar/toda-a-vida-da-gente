@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Toda a Vida da Gente
 
 Atualmente em regime de autoria proprietária.
@@ -47,3 +48,7 @@ Não se trata de projeto open source.
 ## 🚧 Status
 
 Em construção.
+=======
+# toda-a-vida-da-gente
+Atualmente em regime de autoria proprietária. Espaço dedicado a referências bibliográficas, vídeos e artigos autorais. Este site evoluirá para um portal.
+>>>>>>> 7215cb0cec2b3237f5d764abafa0e4804a4fca0a
