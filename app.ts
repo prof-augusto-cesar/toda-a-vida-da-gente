@@ -73,11 +73,71 @@ function renderVideos() {
   });
 }
 
+function abrirWhatsApp(): void {
+
+  window.open(
+    "https://wa.me/5516991110376",
+    "_blank"
+  )
+}
+
+function abrirLousa(): void {
+
+  window.open(
+    "https://excalidraw.com",
+    "_blank"
+  )
+}
+
+function abrirReuniao(): void {
+
+  window.open(
+    "https://meet.google.com",
+    "_blank"
+  )
+}
+
+function configurarEventos(): void {
+
+  const btnWhatsApp =
+    document.getElementById("btn-whatsapp")
+
+  const btnLousa =
+    document.getElementById("btn-lousa")
+
+  const btnReuniao =
+    document.getElementById("btn-reuniao")
+
+  const btnLousaReuniao =
+    document.getElementById("btn-lousa-reuniao")
+
+  btnWhatsApp?.addEventListener(
+    "click",
+    abrirWhatsApp
+  )
+
+  btnLousa?.addEventListener(
+    "click",
+    abrirLousa
+  )
+
+  btnReuniao?.addEventListener(
+    "click",
+    abrirReuniao
+  )
+
+  btnLousaReuniao?.addEventListener(
+    "click",
+    abrirLousa
+  )
+}
+
 function iniciar() {
   renderSobre();
   renderArtigos();
   renderReferencias();
   renderVideos();
+  configurarEventos();
 }
 
 iniciar();

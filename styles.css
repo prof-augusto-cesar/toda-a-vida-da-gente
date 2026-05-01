@@ -62,3 +62,75 @@ footer {
     padding: 10px;
   }
 }
+.modo-aula {
+
+  background: white;
+
+  color: #222;
+
+  padding: 24px;
+
+  margin-bottom: 24px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.modo-aula h2 {
+
+  margin-bottom: 12px;
+}
+
+.modo-aula p {
+
+  margin-bottom: 16px;
+
+  line-height: 1.5;
+}
+
+.modo-aula button {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  padding: 10px 18px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  transition: 0.2s;
+}
+
+.modo-aula button:hover {
+
+  opacity: 0.9;
+}
+
+#btn-whatsapp {
+
+  background: #25D366;
+
+  color: white;
+}
+
+#btn-lousa,
+#btn-lousa-reuniao {
+
+  background: #4A90E2;
+
+  color: white;
+}
+
+#btn-reuniao {
+
+  background: #555;
+
+  color: white;
+}
