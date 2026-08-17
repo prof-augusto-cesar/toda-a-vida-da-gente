@@ -31,7 +31,7 @@ const dados = {
   videos: [
     "https://www.youtube.com/embed/GF07p7NdT_o", // Seu vídeo antigo mantido
     "https://www.youtube.com/embed/zGPXe87CgHw", // Novo vídeo 1 adicionado
-    "https://www.youtube.com/embed/G5lfIoigMas"  // Novo vídeo 2 adicionado
+    //"https://www.youtube.com/embed/G5lfIoigMas"  // Novo vídeo 2 verificar adicionamento adequado
     ]
   
 };
