@@ -23,9 +23,17 @@ const dados = {
     "Kant - Husserl"
   ],
 
+  //videos: [
+  //  "https://www.youtube.com/embed/GF07p7NdT_o"
+  //]
+
+  // Procure por esta seção dentro da const dados e substitua:
   videos: [
-    "https://www.youtube.com/embed/GF07p7NdT_o"
-  ]
+    "https://www.youtube.com/embed/GF07p7NdT_o", // Seu vídeo antigo mantido
+    "https://youtu.be/zGPXe87CgHw?si=Zmvzx6nHFkKf2UAV", // Novo vídeo 1 adicionado
+    "https://youtu.be/G5lfIoigMas?si=WjNEnw-me3r-AUIh"  // Novo vídeo 2 adicionado
+    ]
+  
 };
 
 function renderSobre() {
